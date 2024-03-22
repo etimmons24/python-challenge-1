@@ -52,7 +52,7 @@ menu = {
 
 # 1. Set up order list. Order list will store a list of dictionaries for
 # menu item name, item price, and quantity ordered
-
+order_list = []
 
 # Launch the store and present a greeting to the customer
 print("Welcome to the variety food truck.")
@@ -118,31 +118,50 @@ while place_order:
                     }
                     i += 1
             # 2. Ask customer to input menu item number
-
+            menu_item_number = input("Enter the menu item number: ")
 
             # 3. Check if the customer typed a number
+                if menu_item_number.isdigit():
 
-                # Convert the menu selection to an integer
+                    # Convert the menu selection to an integer                    
+                    if int(menu_item_number) in menu_items.keys():
+                        # Store the item name as a variable
+                        item_name = menu_items["Item name"]
 
-
-                # 4. Check if the menu selection is in the menu items
-
-                    # Store the item name as a variable
-
-
-                    # Ask the customer for the quantity of the menu item
-
+                        # Ask the customer for the quantity of the menu item
+                        quantity = input("Enter quantity of menu item: 1")
 
                     # Check if the quantity is a number, default to 1 if not
+                    if quantity.isdigit() != True:
+                        print(f"Quantity {quantity} is invalid. Entry will default to 1")
+                        quantity = 1
+
 
 
                     # Add the item name, price, and quantity to the order list
 
 
+
+
+                    else
+                        #  Tell the customer they chose an invalid option
+                        print("Invalid menu option.  Try again!")
+                        
+
+
+                else:
                     # Tell the customer that their input isn't valid
+                    print("Invalid entry. Try again!")
+                    
+
+                                
+
+                    
 
 
-                # Tell the customer they didn't select a menu option
+                                        
+
+
 
         else:
             # Tell the customer they didn't select a menu option
