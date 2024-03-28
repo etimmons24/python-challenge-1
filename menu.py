@@ -78,6 +78,9 @@ def get_customer_menu_category(menu_items):
     """Prints the list of menu categories and retrieves the customer's 
     selection
 
+    Args:
+        menu_items: The list of menu items
+
     Returns:
         The menu cateogory selected by the customer         
     """    
@@ -110,7 +113,9 @@ def get_customer_order(menu_items, menu_category, order_list):
     """Prints the menu items and gets the customer's menu item selection
      
     Args:
-        The customer's selected menu category
+        menu_items: The menu items items list
+        menu_category: The customer's selected menu category
+        order_list: The customer's order list
 
     Returns:
         The customer's order list
