@@ -1,4 +1,4 @@
-# Variety Food Truck - (python-challenge-1)
+# Welcome to Variety Food Truck
 
 This is an interactive ordering system for a food truck menu.  With this system a customer can place an order and receive a receipt with the total price of all items ordered.
 
