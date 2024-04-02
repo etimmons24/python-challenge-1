@@ -1,6 +1,15 @@
 # Welcome to Variety Food Truck
 
-This is an interactive ordering system for a food truck menu.  With this system a customer can place an order and receive a receipt with the total price of all items ordered.
+This is an interactive ordering system for a food truck menu.  With this system a customer can place an order and receive a receipt with the total price of all items ordered.  The menu will display multiple categories for a customer to choose from and can choose food items until done ordering.  See screen shots below:
+
+![Screenshot 2024-04-02 115941](https://github.com/etimmons24/python-challenge-1/assets/163076822/d13560fd-4d51-4790-a405-bb194742f2ac)
+
+![Screenshot 2024-04-02 114851](https://github.com/etimmons24/python-challenge-1/assets/163076822/8d11d2cf-bf03-4ba7-b1e9-afe394fc0f84)
+
+![Screenshot 2024-04-02 114925](https://github.com/etimmons24/python-challenge-1/assets/163076822/21e25d93-c375-4d09-9713-2d9996310970)
+
+![Screenshot 2024-04-02 114955](https://github.com/etimmons24/python-challenge-1/assets/163076822/d7bee861-abdd-40b1-9339-36beb83f5072)
+
 
 Please submit bug reports and feature suggestions, or track changes in the [issue queue].
 
